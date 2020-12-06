@@ -67,9 +67,13 @@ body {
     /* border: yellow 2px solid; */
 }
 
+.home-button:hover {
+    opacity: 0.5;
+}
+
 .triangulo-grande-cnt {
     position: absolute;
-
+    z-index: -1;
     width: 100%;
     margin: 0;
     top: 0%;
