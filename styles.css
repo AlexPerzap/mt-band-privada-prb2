@@ -21,6 +21,9 @@ body {
     margin: 0%;
 }
 
+strong {
+    font-family: Glacial-Bold;
+}
 .macro {
     position: relative;
     margin: 0%;
@@ -30,7 +33,7 @@ body {
 
 .logo-y-botones-cnt {
     /* border: yellow solid 2px; */
-    width: 55%;
+    width: 52%;
     
 }
 .logo-img {
@@ -103,3 +106,193 @@ body {
     /* border: green solid 2px; */
 
 }
+
+@media only screen and (min-width: 350px) {  
+    .logo-y-botones-cnt {
+        width: 45%;       
+    }
+    .buttons-container {
+        margin: 30% 0 0% 25%;
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 400px) {  
+    .logo-y-botones-cnt {
+        width: 40%;       
+    }
+    .buttons-container {
+        margin: 26% 0 0% 25%;
+        width: 65%;
+    }
+    .home-button {
+        font-size: 6.5vw;
+    }
+}
+
+@media only screen and (min-width: 440px) {  
+    .logo-y-botones-cnt {
+        width: 37%;       
+    }
+    .buttons-container {
+        margin: 24% 0 0% 25%;
+        width: 65%;
+    }
+    .home-button {
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (min-width: 483px) {  
+    .logo-y-botones-cnt {
+        width: 35%;       
+    }
+    .buttons-container {
+        margin: 30% 0 0% 25%;
+        width: 63%;
+    }
+    .home-button {
+        font-size: 160%;
+    }
+    .triangulo-grande-cnt {
+        width: 92%;
+        margin: 5% 0 0 0;
+    }
+    .main-description-text{
+        font-size: 3.5vw;
+        width: 76%;
+        margin: 0 3.5% 7.5% 0;
+    }
+}
+
+@media only screen and (min-width: 542px) {  
+    .logo-y-botones-cnt {
+        width: 23%;       
+    }
+    .buttons-container {
+        margin: 20% 0 0% 25%;
+        width: 63%;
+    }
+    .home-button {
+        font-size: 123%;
+        width: 105%;
+    }
+    .triangulo-grande-cnt {
+        width: 100%;
+        /* margin: 0% 0 0 0; */
+        background-image: none;
+        background-color: rgba(130, 114, 81, 0.4);
+        clip-path: polygon(100% 0%, 25% 100%, 100% 100%);
+    }
+    .main-description-text{
+        font-size: 85%;
+        width: 47%;
+        margin: 0 3.5% 3% 0;
+    }
+}
+
+@media only screen and (min-width: 661px) {  
+    .logo-y-botones-cnt {
+        width: 40%;       
+    }
+    .buttons-container {
+        margin: 30% 0 0% 25%;
+
+    }
+    .home-button {
+        font-size: 250%;
+        width: 105%;
+    }
+    .triangulo-grande-cnt {
+        margin: 0% 0 0 0;
+        clip-path: polygon(100% 11%, 15% 100%, 100% 100%);
+    }
+    .main-description-text{
+        font-size: 3.6vw;
+        width: 75%;
+        margin: 0 3.5% 7.5% 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {  
+    .logo-y-botones-cnt {
+        width: 26%;       
+    }
+    .home-button {
+        font-size: 270%;
+        /* width: 105%; */
+    }
+    .triangulo-grande-cnt {
+        width: 80%;
+    }
+    .main-description-text{
+        font-size: 2.35vw;
+        width: 58%;
+        margin: 0 3.5% 3% 0;
+    }
+}
+
+@media only screen and (min-width: 1074px) {  
+    .logo-y-botones-cnt {
+        width: 20%;       
+    }
+    .buttons-container {
+        flex-direction: row;
+        margin: 65% 0 0% 25%;
+        width: 130%;
+    }
+    .home-button {
+        font-size: 260%;
+        margin: 0 5% 0 0;
+        width: 130%;
+        padding: 2% 2%;
+    }
+ /*    .triangulo-grande-cnt {
+        width: 80%;
+    } */
+    .main-description-text{
+        font-size: 2vw;
+        width: 53%;
+        margin: 0 3.5% 3% 0;
+    }
+}
+
+/* @media only screen and (min-width: 790px) {  
+    .logo-y-botones-cnt {
+        width: 28%;       
+    }
+    .buttons-container {
+        flex-direction: row;
+        margin: 50% 0 0% 25%;
+        width: 140%;
+    }
+    .home-button {
+        margin: 0 10% 0 0;
+        padding: 2% 0;
+    }
+    .triangulo-grande-cnt {
+        width: 70%;
+    }
+    .main-description-text{
+        width: 67%;
+        font-size: 2.4vw;
+    }
+}
+
+@media only screen and (min-width: 876px) {  
+    .logo-y-botones-cnt {
+        width: 26%;       
+    }
+    .buttons-container {
+        width: 120%;
+    }
+    .home-button {
+        font-size: 170%;
+    }
+    .triangulo-grande-cnt {
+        width: 70%;
+    }
+    .main-description-text{
+        font-size: 2.3vw;
+    }
+} */
