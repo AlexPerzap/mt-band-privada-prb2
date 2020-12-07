@@ -260,25 +260,25 @@ strong {
 
 @media only screen and (min-width: 1280px) {  
     .logo-y-botones-cnt {
-        width: 26%;       
+        width: 25%;       
     }
     .buttons-container {
         flex-direction: row;
-        margin: 45% 0 0% 25%;
+        margin: 40% 0 0% 25%;
         width: 140%;
     }
     .home-button {
         font-size: 300%;
         margin: 0 10% 0 0;
         width: 60%;
-        /* padding: 2% 2%; */
+        padding: 1% 2%;
     }
     .triangulo-grande-cnt {
         clip-path: polygon(100% 10%, 35% 100%, 100% 100%);
     }
     .main-description-text{
-        font-size: 183%;
-        width: 44%;
+        font-size: 172%;
+        width: 40%;
         /* margin: 0 3.5% 3% 0; */
     }
 }
