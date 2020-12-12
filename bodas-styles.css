@@ -118,6 +118,16 @@ body {
     /* border: green 2px solid; */
 }
 
+.card-text-video {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 105%;
+    margin: -2% 0 0 0;
+    
+}
+
 .card-title {
     font-family: Glacial-Bold;
     font-size: 1.5vw;
@@ -191,6 +201,17 @@ body {
     right: 0;
     width: 100%;
     height: 103%;
+    border: none;
+}
+
+.responsive-iframe-eventos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height:96%;
     border: none;
 }
 

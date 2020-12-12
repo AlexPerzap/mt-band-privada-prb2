@@ -45,8 +45,8 @@ strong {
 .buttons-container {
     display: flex;
     flex-direction: column;
-    margin: 28% 0 0% 25%;
-    width: 50%;
+    margin: 23% 0 0% 25%;
+    width: 58%;
 }
 
 .home-button {
@@ -56,7 +56,7 @@ strong {
     font-size: 7vw;
     background-color: rgb(130, 114, 81, 0.7);
     border: none;
-    margin: 20% 0 0 0;
+    margin: 10% 0 0 0;
 }
 
 .button-link {  
@@ -104,7 +104,7 @@ strong {
     }
     .buttons-container {
         margin: 30% 0 0% 25%;
-        width: 60%;
+        width: 68%;
     }
 }
 
@@ -114,13 +114,14 @@ strong {
     }
     .buttons-container {
         margin: 26% 0 0% 25%;
-        width: 65%;
+        width: 75%;
     }
     .home-button {
         font-size: 6.5vw;
     }
 }
 
+/* no sé a qué dispositivo corresponde */
 @media only screen and (min-width: 440px) {  
     .logo-y-botones-cnt {
         width: 37%;       
@@ -226,8 +227,8 @@ strong {
     }
     .buttons-container {
         /* flex-direction: row; */
-        margin: 10% 0 0% 25%;
-        width: 100%;
+        margin: 45% 0 0% 25%;
+        width: 120%;
     }
     .home-button {
         font-size: 300%;
@@ -239,8 +240,8 @@ strong {
         clip-path: polygon(100% 10%, 10% 100%, 100% 100%);
     }
     .main-description-text{
-        font-size: 200%;
-        width: 65%;
+        font-size: 240%;
+        width: 75%;
         margin: 0 3.5% 3% 0;
     }
 }
@@ -256,7 +257,7 @@ strong {
     }
     .home-button {
         font-size: 300%;
-        margin: 0 10% 0 0;
+        margin: 0 5% 0 0;
         width: 60%;
         padding: 1% 2%;
     }
@@ -265,7 +266,7 @@ strong {
     }
     .main-description-text{
         font-size: 172%;
-        width: 40%;
+        width: 45%;
         /* margin: 0 3.5% 3% 0; */
     }
 }
