@@ -221,6 +221,18 @@ strong {
     }
 }
 
+/* @media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) {
+    html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
+  } */
+
 @media only screen and (min-width: 1024px) {  
     .logo-y-botones-cnt {
         width: 30%;       
@@ -252,20 +264,28 @@ strong {
     }
     .buttons-container {
         flex-direction: row;
-        margin: 40% 0 0% 25%;
-        width: 140%;
+        margin: 20% 0 0% 25%;
+        width: 150%;
     }
     .home-button {
-        font-size: 300%;
+        font-size: 270%;
         margin: 0 5% 0 0;
-        width: 60%;
+        width: 65%;
         padding: 1% 2%;
     }
     .triangulo-grande-cnt {
         clip-path: polygon(100% 10%, 35% 100%, 100% 100%);
     }
     .main-description-text{
-        font-size: 172%;
+        font-size: 165%;
+        width: 40%;
+        /* margin: 0 3.5% 3% 0; */
+    }
+}
+
+@media only screen and (min-width: 1440px) {  
+    .main-description-text{
+        font-size: 195%;
         width: 45%;
         /* margin: 0 3.5% 3% 0; */
     }
