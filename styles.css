@@ -24,6 +24,16 @@ body {
 strong {
     font-family: Glacial-Bold;
 }
+
+
+
+#wp-ratedWA-img-2021 {    
+    /* display: inline !important; */
+    position:  fixed !important;
+    margin: 2% 0% 0% 88% !important;
+
+}
+
 .macro {
     position: relative;
     margin: 0%;
@@ -106,6 +116,11 @@ strong {
         margin: 30% 0 0% 25%;
         width: 68%;
     }
+
+    #wp-ratedWA-img-2021 {    
+        margin: 12% 0% 0% 63% !important;
+        
+    }
 }
 
 @media only screen and (min-width: 400px) {  
@@ -118,6 +133,11 @@ strong {
     }
     .home-button {
         font-size: 6.5vw;
+    }
+
+    #wp-ratedWA-img-2021 {    
+        margin: 10% 0% 0% 65% !important;
+        
     }
 }
 
@@ -219,6 +239,11 @@ strong {
         width: 70%;
         margin: 0 3.5% 3.5% 0;
     }
+
+    #wp-ratedWA-img-2021 {    
+        margin: 10% 0% 0% 75% !important;
+        
+    }
 }
 
 /* @media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) {
@@ -256,6 +281,8 @@ strong {
         width: 75%;
         margin: 0 3.5% 3% 0;
     }
+
+
 }
 
 @media only screen and (min-width: 1280px) {  
@@ -280,6 +307,11 @@ strong {
         font-size: 165%;
         width: 40%;
         /* margin: 0 3.5% 3% 0; */
+    }
+
+    #wp-ratedWA-img-2021 {    
+        margin: 7% 0% 0% 88% !important;
+        
     }
 }
 
